@@ -25,4 +25,6 @@ void insertion_sort_list(listint_t **list);
 void selection_sort(int *arr, size_t size);
 void quick_sort(int *arr, size_t size);
 
+void swapper(listint_t *nodeA, listint_t *nodeB, listint_t **list);
+
 #endif /*SORT_H*/
